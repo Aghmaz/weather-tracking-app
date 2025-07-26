@@ -13,24 +13,54 @@
 </head>
 
 <body>
-
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">
-                    <i class="fa-solid fa-location-arrow"></i>
-                </a>
-            </li>
-            <li>
-                <a href="search.html">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-            </li>
-            <li>
-                <a class="active" href="world.html"><i class="fa-solid fa-earth-americas"></i></a>
-            </li>
-        </ul>
-    </nav>
+    <div id="screen">
+        <div class="section">
+            <div class="date"> July 26, 2025</div>
+            <div class="button">
+                <i class="fa-solid fa-circle-plus"></i>
+            </div>
+        </div>
+        <!-- add section -->
+        <div class="section-box">
+            <div class="add-section">
+                <div class="add-section-title">
+                    <h2>Add a new place</h2>
+                </div>
+                <!-- search -->
+                <div class="search">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input type="text" name="" id="" placeholder="Search...">
+                </div>
+                <!-- message -->
+                <div class="messages">
+                    <div class="error-message">City not found</div>
+                    <div class="normal-message">Search your city</div>
+                    <div class="added-message">Successfully added ✓</div>
+                </div>
+            </div>
+            <div class="city-box"></div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-location-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="search.html">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="active" href="world.html"><i class="fa-solid fa-earth-americas"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <script src="js/world.js"></script>
+    </div>
 </body>
 
 </html>
